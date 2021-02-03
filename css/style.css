@@ -63,7 +63,7 @@ section:nth-child(5){background: url(../img/bg_2.png);}
 
 #skill_wrap{width: 90%;height: 100%;margin: 0 auto;margin-top: 5%;}
 #skill_wrap h2{text-align: center;color: white;font: 30px/0.8 타이포 크레파스 중간;}
-.skillbox{width: 75%;height: 600px;margin: 0 auto;border: 2px solid #C1C1C1;margin-top: 100px;}
+.skillbox{width: 75%;height: 600px;margin: 0 auto;border: 2px solid #C1C1C1;margin-top: 100px;transition: all 0.5s; }
 .skill{width: 33.26%;height: 50%;float: left;}
 .skill:nth-child(1){border-right: 1px solid #fff;}
 .skill:nth-child(2){border-right: 1px solid #fff;}
@@ -71,7 +71,7 @@ section:nth-child(5){background: url(../img/bg_2.png);}
 .skill:nth-child(5){border-right: 1px solid #fff;border-top:1px solid #fff;}
 .skill:nth-child(6){border-top: 1px solid #fff;}
 .skill >.skill_name{width: 90%;height: 50px;margin: 10px auto;background-color: #072100;text-align: center;line-height: 50px;color: #fff;font-size: 18px;font-weight: 600}
-.skill ul li{color: #fff;margin: 20px;}
+.skill ul li{color: #fff;margin: 10px;}
 .skill:nth-child(3) ul li{margin: 15px;}
 
 
@@ -413,6 +413,7 @@ background-size: cover;}
     .skill:nth-child(6){border-top: 1px solid #fff;}
     .skill >.skill_name{width: 90%;height: 50px;margin: 10px auto;background-color: #072100;text-align: center;line-height: 50px;color: #fff;font-size: 18px;font-weight: 600}
     
+    .skill >ul li{font-size: 14px;margin: 8px;}
     .nav >ul >li {width: 150px;height: 102px;margin-bottom: 0px;} 
     .nav>ul>li a {height: 102px;}
     
@@ -514,12 +515,12 @@ background-size: cover;}
     #skill_wrap >h2{font-size: 18px;padding-top:10px;}
     .skillbox{width: 100%;height: 90%;margin-top: 10px;border: none;}
     .skill{position: relative;width: 90%;margin: 0 auto;border: 1px solid #fff; height:16%;float: none;box-sizing: border-box;}
-    .skill > .bar1{width: 75%; height: 30px;position: absolute;top: 48%;background-color: #3282e1;}
-    .skill > .bar2{width: 90%; height: 30px;position: absolute;top: 48%;background-color: #3282e1;}
-    .skill > .bar3{width: 85%; height: 30px;position: absolute;top: 48%;background-color: #3282e1;}
-    .skill > .bar4{width: 90%; height: 30px;position: absolute;top: 48%;background-color: #3282e1;}
-    .skill > .bar5{width: 80%; height: 30px;position: absolute;top: 48%;background-color: #3282e1;}
-    .skill > .bar6{width: 60%; height: 30px;position: absolute;top: 48%;background-color: #3282e1;}
+    .skill > .bar1{margin-left: 5px;width: 92%; height: 30px;position: absolute;top: 48%;background-color: #3282e1;}
+    
+    .skill > .bar3{margin-left: 5px;width: 85%; height: 30px;position: absolute;top: 48%;background-color: #3282e1;}
+    .skill > .bar4{margin-left: 5px;width: 90%; height: 30px;position: absolute;top: 48%;background-color: #3282e1;}
+    .skill > .bar5{margin-left: 5px;width: 80%; height: 30px;position: absolute;top: 48%;background-color: #3282e1;}
+    .skill > .bar6{margin-left: 5px;width: 60%; height: 30px;position: absolute;top: 48%;background-color: #3282e1;}
     
     .skill:nth-child(1){margin-bottom: 5px;}
     .skill:nth-child(2){margin-bottom: 5px;}
@@ -530,6 +531,8 @@ background-size: cover;}
     .skill >.skill_name{width: 100%;height:30px;margin: 0 auto;text-align: center;line-height: 30px;color: #fff;font-size: 14px;font-weight: 600}
     
     .skill ul{display: none;}
+    .skill>.office{display: block;}
+    .skill>.office li{float: left;margin: 5px;font-size: 12px;width: 45%;}
     
     .nav >ul >li {width: 80px;height: 50px;margin-bottom: 0px;}   
     .nav>ul>li a {height: 50px;}
