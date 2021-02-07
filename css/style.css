@@ -98,11 +98,11 @@ section:nth-child(5){background: url(../img/bg_2.png);}
 .nav3 {width: 650px;height: 400px;margin: 10px auto 0px auto;}
 #portimg3 {width: 700px;height: 400px;margin: 50px auto 0px auto;}
 
-.nav4 >ul>li{float: left;overflow: hidden;width: 200px;height: 112px; margin-left: 10px;margin-bottom:10px; }
-.nav4>ul>li a {display: block;height: 150px;}
-.nav4>ul > li a img{display: block;}
-.nav4 {width: 650px;height: 400px;margin: 10px auto 0px auto;}
-#portimg4 {width: 700px;height: 400px;margin: 50px auto 0px auto;}
+.banner >ul>li{float: left;overflow: hidden;width: 200px;height: 112px; margin-left: 10px;margin-bottom:10px; }
+.banner>ul>li a {display: block;height: 150px;}
+.banner>ul > li a img{display: block;}
+.banner {width: 650px;height: 400px;margin: 10px auto 0px auto;}
+#portfolioimg {width: 700px;height: 400px;margin: 50px auto 0px auto;}
 
 
 
@@ -176,7 +176,7 @@ background-size: contain;background-repeat: no-repeat;}
 #title2 >a.on{background-image: url(../img/title2_1.png);}
 #title3 >a.on{background-image: url(../img/title3_1.png);}
 #title4 >a.on{background-image: url(../img/title4_1.png);}
-#title5 >a.on{background-image: url(../img/title5_1.png);}
+#title5 >a.on{background-image: url(../img/title5_1.jpg);}
 #title6 >a.on{background-image: url(../img/title6_1.png);}
 
 #portimg1.port1 {background-image: url(../img/pro1.jpg);
@@ -214,12 +214,13 @@ background-size: cover;}
 #portimg3.portfolio5{background-image: url(../img/cta5.jpg);background-size: cover;}
 #portimg3.portfolio6{background-image: url(../img/cta6.jpg);background-size: cover;}
 
-#portimg4.ti1{background-image: url(../img/title1.jpg);background-size: cover;}
-#portimg4.ti2{background-image: url(../img/title2.jpg);background-size: cover;}
-#portimg4.ti3{background-image: url(../img/title3.jpg);background-size: cover;}
-#portimg4.ti4{background-image: url(../img/title4.jpg);background-size: cover;}
-#portimg4.ti5{background-image: url(../img/title5.jpg);background-size: cover;}
-#portimg4.ti6{background-image: url(../img/title6.jpg);background-size: cover;}
+#portfolioimg.tit1{background-image: url(../img/title1.jpg);background-size: cover;}
+#portfolioimg.tit2{background-image: url(../img/title2.jpg);background-size: cover;}
+#portfolioimg.tit3{background-image: url(../img/title3.jpg);background-size: cover;}
+#portfolioimg.tit4{background-image: url(../img/title4.jpg);background-size: cover;}
+#portfolioimg.tit5{background-image: url(../img/title5.jpg);background-size: cover;}
+#portfolioimg.tit6{background-image: url(../img/title6.jpg);background-size: cover;}
+
 .text{width: 480px;height: 85%;position:absolute;bottom: 0;right: 150px;}
 .text h2{color: #F93641;text-align: right;border-bottom: 4px solid;line-height: 50px;}
 .text h2 >span{font-size: 16px;line-height: 10px;color: #F1F1C1;}
@@ -291,7 +292,7 @@ background-size: cover;}
      #portimg1 {width: 600px;height: 350px;}
      #portimg2 {width: 600px;height: 350px;}
      #portimg3 {width: 600px;height: 350px;}
-     #portimg4 {width: 600px;height: 350px;}
+     #4thimg {width: 600px;height: 350px;}
  
 }
 /*중간*/
@@ -378,11 +379,11 @@ background-size: cover;}
     .nav3 {width: 500px;height: 400px;margin: 10px auto 0px auto;}
     #portimg3 {width: 500px;height: 300px;margin-left: 20px;}
     
-    .nav4 >ul >li {float: left;overflow: hidden;width: 200px;height: 112px;margin-left: 10px;margin-bottom: 10px;}   
-    .nav4>ul>li a {display: block;height: 150px;}
-    .nav4>ul>li a img{display: block;}
-    .nav4 {width: 500px;height: 400px;margin: 10px auto 0px auto;}
-    #portimg4 {width: 500px;height: 300px;margin-left: 20px;}
+    .banner >ul >li {float: left;overflow: hidden;width: 200px;height: 112px;margin-left: 10px;margin-bottom: 10px;}   
+    .banner>ul>li a {display: block;height: 150px;}
+    .banner>ul>li a img{display: block;}
+    .banner {width: 500px;height: 400px;margin: 10px auto 0px auto;}
+    #4thimg {width: 500px;height: 300px;margin-left: 20px;}
     
     .text{right: 10px;}
      .motion{width: 600px; margin: 0 auto; text-align: center;height: 90%;position: absolute;bottom: 0;left: 0px;}
@@ -471,10 +472,10 @@ background-size: cover;}
     .nav3 {width: 100%;height: 400px;margin: 10px auto 0px auto;}
     #portimg3 {width: 450px;height: 250px;margin-left: 20px;float: left;}
     
-    .nav4 >ul >li {width: 150px;height: 102px;margin-bottom: 0px;} 
-    .nav4>ul>li a {height: 102px;} 
-    .nav4 {width: 100%;height: 400px;margin: 10px auto 0px auto;}
-    #portimg4 {width: 450px;height: 250px;margin-left: 20px;float: left;}
+    .banner >ul >li {width: 150px;height: 102px;margin-bottom: 0px;} 
+    .banner>ul>li a {height: 102px;} 
+    .banner {width: 100%;height: 400px;margin: 10px auto 0px auto;}
+    #portfolioimg {width: 450px;height: 250px;margin-left: 20px;float: left;}
     
     .text{right: 0px;width: 98%;height: 400px;bottom: 15%;}
      .motion{width: 100%;height: 350px;position: absolute;top: 5%;left: 0px;}
@@ -599,11 +600,11 @@ background-size: cover;}
     .nav3 {width: 100%;height: 100px;margin: 0px auto 0px auto;position:absolute;bottom:30px;}
     #portimg3 {width: 290px;height: 165px;margin-left: 20px;}
     
-    .nav4 >ul >li {width: 80px;height: 50px;margin-bottom: 0px;}   
-    .nav4>ul>li a {height: 50px;}
-    .nav4>ul{width: 90%;height:100px;margin:0 auto; }
-    .nav4 {width: 100%;height: 100px;margin: 0px auto 0px auto;position:absolute;bottom:30px;}
-    #portimg4 {width: 290px;height: 165px;margin-left: 20px;}
+    .banner >ul >li {width: 80px;height: 50px;margin-bottom: 0px;}   
+    .banner>ul>li a {height: 50px;}
+    .banner>ul{width: 90%;height:100px;margin:0 auto; }
+    .banner {width: 100%;height: 100px;margin: 0px auto 0px auto;position:absolute;bottom:30px;}
+    #portfolioimg {width: 290px;height: 165px;margin-left: 20px;}
     
     .text{right: 10px; width: 95%;height: 310px;bottom: 1%;margin: 0 auto;}
      .motion{width: 100%;height: 350px;position: absolute;top: 0px;left: 0px;}
