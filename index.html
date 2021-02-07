@@ -11,6 +11,8 @@
      <script src="js/jquery.mousewheel.min.js"></script>
      <script src="js/swiper.min.js"></script>
      <link rel="stylesheet" href="css/swiper.min.css">
+     <link rel="stylesheet" href="css/colorbox.css">
+     <script src="js/jquery.colorbox-min.js"></script>
     <style>
         
     </style>
@@ -65,45 +67,45 @@
                       $("#menu li").eq(4).addClass("on")
                   }
               });
-            $('.nav >ul >#promotion1').click(function(){
+            $('.nav>ul>#promotion1').click(function(){
             $("#portimg1").removeClass().addClass("port1");
                 $('.nav>ul>li>a').removeClass("on");
                 $("#promotion1>a").addClass("on");
              });
             
-            $('.nav >ul >#promotion2').click(function(){
+            $('.nav>ul>#promotion2').click(function(){
             $("#portimg1").removeClass().addClass("port2");
                 $(".nav>ul>li>a").removeClass("on");
                 $("#promotion2>a").addClass("on");
              });
             
-            $('.nav >ul >#promotion3').click(function(){
+            $('.nav>ul>#promotion3').click(function(){
             $("#portimg1").removeClass().addClass("port3");
                 $(".nav>ul>li>a").removeClass("on");
                 $("#promotion3>a").addClass("on");
             });
             
-            $('.nav >ul >#promotion4').click(function(){
+            $('.nav>ul>#promotion4').click(function(){
             $("#portimg1").removeClass().addClass("port4");
                 $(".nav>ul>li>a").removeClass("on");
                 $("#promotion4>a").addClass("on");
             });
             
-            $('.nav >ul >#promotion5').click(function(){         
+            $('.nav>ul>#promotion5').click(function(){         
             $("#portimg1").removeClass().addClass("port5");
                 $(".nav>ul>li>a").removeClass("on");
                 $("#promotion5>a").addClass("on");
             });
             
-            $('.nav >ul >#promotion6').click(function(){
+            $('.nav>ul>#promotion6').click(function(){
             $("#portimg1").removeClass().addClass("port6");
                 $(".nav>ul>li>a").removeClass("on");
                 $("#promotion6>a").addClass("on");
              });
-            $(".nav >ul>li>a").click(function(e){
+            $(".nav>ul>li>a").click(function(e){
                 e.preventDefault();
             });
-            $(".nav2 >ul>li>a").click(function(e){
+            $(".nav2>ul>li>a").click(function(e){
                 e.preventDefault();
             });
             $('.nav2>ul>#lineup1').click(function(){
@@ -137,75 +139,76 @@
                 $("#lineup6>a").addClass("on");
             });
             
-            $('.nav3 >ul >#cta1').click(function(){
+            $('.nav3>ul>#cta1').click(function(){
             $("#portimg3").removeClass().addClass("portfolio1");
                 $('.nav3>ul>li>a').removeClass("on");
                 $("#cta1>a").addClass("on");
              });
-            $('.nav3 >ul >#cta2').click(function(){
+            $('.nav3>ul>#cta2').click(function(){
             $("#portimg3").removeClass().addClass("portfolio2");
                 $('.nav3>ul>li>a').removeClass("on");
                 $("#cta2>a").addClass("on");
              });
-            $('.nav3 >ul >#cta3').click(function(){
+            $('.nav3>ul>#cta3').click(function(){
             $("#portimg3").removeClass().addClass("portfolio3");
                 $('.nav3>ul>li>a').removeClass("on");
                 $("#cta3>a").addClass("on");
              });
-            $('.nav3 >ul >#cta4').click(function(){
+            $('.nav3>ul>#cta4').click(function(){
             $("#portimg3").removeClass().addClass("portfolio4");
                 $('.nav3>ul>li>a').removeClass("on");
                 $("#cta4>a").addClass("on");
              });
-            $('.nav3 >ul >#cta5').click(function(){
+            $('.nav3>ul>#cta5').click(function(){
             $("#portimg3").removeClass().addClass("portfolio5");
                 $('.nav3>ul>li>a').removeClass("on");
                 $("#cta5>a").addClass("on");
              });
-            $('.nav3 >ul >#cta6').click(function(){
+            
+            $('.nav3>ul>#cta6').click(function(){
             $("#portimg3").removeClass().addClass("portfolio6");
                 $('.nav3>ul>li>a').removeClass("on");
                 $("#cta6>a").addClass("on");
              });
             
-            $(".nav3 >ul>li>a").click(function(e){
+            $(".nav3>ul>li>a").click(function(e){
                 e.preventDefault();
             });
          
-            $('.banner >ul >#title1').click(function(){
+            $('.banner>ul>#title1').click(function(){
             $("#portfolioimg").removeClass().addClass("tit1");
                 $('.banner>ul>li>a').removeClass("on");
                 $("#titel1>a").addClass("on");
              });
-            $('.banner >ul >#title2').click(function(){
+            $('.banner>ul>#title2').click(function(){
             $("#portfolioimg").removeClass().addClass("tit2");
                 $('.banner>ul>li>a').removeClass("on");
                 $("#title>a").addClass("on");
              });
-            $('.banner >ul >#title3').click(function(){
+            $('.banner>ul>#title3').click(function(){
             $("#portfolioimg").removeClass().addClass("tit3");
                 $('.banner>ul>li>a').removeClass("on");
                 $("#title3>a").addClass("on");
              });
-            $('.banner >ul >#title4').click(function(){
+            $('.banner>ul>#title4').click(function(){
             $("#portfolioimg").removeClass().addClass("tit4");
                 $('.banner>ul>li>a').removeClass("on");
                 $("#title4>a").addClass("on");
              });
-            $('.banner >ul >#title5').click(function(){
+            $('.banner>ul>#title5').click(function(){
             $("#portfolioimg").removeClass().addClass("tit5");
                 $('.banner>ul>li>a').removeClass("on");
                 $("#title5>a").addClass("on");
              });
-            $('.banner >ul >#title6').click(function(){
-            $("#portfolioimg").removeClass().addClass("ti6");
+            $('.banner>ul>#title6').click(function(){
+            $("#portfolioimg").removeClass().addClass("tit6");
                 $('.banner>ul>li>a').removeClass("on");
                 $("#title6>a").addClass("on");
              });
               $(".banner>ul>li>a").click(function(e){
                 e.preventDefault();
             });
-            
+              $(".youtube").colorbox({iframe:true,innerWidth:550,innerHeight:315});  
         });
     </script>
 </head>
@@ -363,7 +366,7 @@
                              <li><img src="img/aftereffects.png" alt="에프터이펙트"></li>
                          </ul>
                      </div>
-                     <div class="view"><a href="#"><h1>VIEW</h1></a></div>
+                     <div class="view"><a href="https://youtu.be/mdqcPL7bQrQ" class="youtube"><h1>VIEW</h1></a></div>
                  </div> 
               </div>
              
@@ -415,7 +418,7 @@
                               <li><img src="img/aftereffects.png" alt="에프터이팩트"></li>
                           </ul>
                       </div>
-                      <div class="view"><a href="#"><h1>VIEW</h1></a></div>
+                      <div class="view"><a href="https://youtu.be/zcbaLq99kzk" class="youtube"><h1>VIEW</h1></a></div>
                   </div>
               </div>
               <div class="swiper-slide">
@@ -467,7 +470,7 @@
                               <li><img src="img/aftereffects.png" alt="에펙"></li>
                           </ul>
                       </div>
-                      <div class="view"><a href="#"><h1>VIEW</h1></a></div>
+                      <div class="view"><a href="https://youtu.be/MNoMhQZWRVI" class="youtube"><h1>VIEW</h1></a></div>
                   </div>
               </div>
               <div class="swiper-slide">
@@ -517,7 +520,7 @@
                               <li><img src="img/aftereffects.png" alt="에프터이펙트"></li>
                           </ul>
                       </div>
-                      <div class="view"><a href="#"><h1>VIEW</h1></a></div>
+                      <div class="view"><a href="https://youtu.be/1saTwEhqNmM" class="youtube"><h1>VIEW</h1></a></div>
                   </div>
               </div>
                </div>
