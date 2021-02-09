@@ -67,48 +67,56 @@
                       $("#menu li").eq(4).addClass("on")
                   }
               });
-            $('.nav>ul>#promotion1').click(function(e){
-                e.preventDefault();
-            $(".nm>#portimg1").removeClass().addClass("port1");
-                $('.nav>ul>li>a').removeClass("on");
-                $("#promotion1>a").addClass("on");
-             });
             
-            $('.nav>ul>#promotion2').click(function(){
-            $(".nm>#portimg1").removeClass().addClass("port2");
-                $(".nav>ul>li>a").removeClass("on");
-                $("#promotion2>a").addClass("on");
-             });
+              $(".nav>ul>li>a").click(function(e){
+                    e.preventDefault();
+              });
+              $(".nav2>ul>li>a").click(function(e){
+                    e.preventDefault();
+              });
+              $(".nav3>ul>li>a").click(function(e){
+                    e.preventDefault();
+              });
+              $(".banner>ul>li>a").click(function(e){
+                    e.preventDefault();
+              });
             
-            $('.nav>ul>#promotion3').click(function(){
-            $(".nm>#portimg1").removeClass().addClass("port3");
-                $(".nav>ul>li>a").removeClass("on");
-                $("#promotion3>a").addClass("on");
-            });
+              $('.nav>ul>#promotion1').click(function(){
+                    $(".nm>#portimg1").removeClass().addClass("port1");
+                    $('.nav>ul>li>a').removeClass("on");
+                    $("#promotion1>a").addClass("on");
+              });
             
-            $('.nav>ul>#promotion4').click(function(){
-            $(".nm>#portimg1").removeClass().addClass("port4");
-                $(".nav>ul>li>a").removeClass("on");
-                $("#promotion4>a").addClass("on");
-            });
+              $('.nav>ul>#promotion2').click(function(){
+                    $(".nm>#portimg1").removeClass().addClass("port2");
+                    $(".nav>ul>li>a").removeClass("on");
+                    $("#promotion2>a").addClass("on");
+              });
+            
+              $('.nav>ul>#promotion3').click(function(){
+                    $(".nm>#portimg1").removeClass().addClass("port3");
+                    $(".nav>ul>li>a").removeClass("on");
+                    $("#promotion3>a").addClass("on");
+              });
+            
+              $('.nav>ul>#promotion4').click(function(){
+                    $(".nm>#portimg1").removeClass().addClass("port4");
+                    $(".nav>ul>li>a").removeClass("on");
+                    $("#promotion4>a").addClass("on");
+              });
             
             $('.nav>ul>#promotion5').click(function(){         
-            $(".nm>#portimg1").removeClass().addClass("port5");
+                $(".nm>#portimg1").removeClass().addClass("port5");
                 $(".nav>ul>li>a").removeClass("on");
                 $("#promotion5>a").addClass("on");
             });
             
             $('.nav>ul>#promotion6').click(function(){
-            $(".nm>#portimg1").removeClass().addClass("port6");
+                $(".nm>#portimg1").removeClass().addClass("port6");
                 $(".nav>ul>li>a").removeClass("on");
                 $("#promotion6>a").addClass("on");
              });
-            $(".nav>ul>li>a").click(function(e){
-                e.preventDefault();
-            });
-            $(".nav2>ul>li>a").click(function(e){
-                e.preventDefault();
-            });
+           
             $('.nav2>ul>#lineup1').click(function(){
                 $("#portimg2").removeClass().addClass("line1");
                 $(".nav2>ul>li>a").removeClass("on");
@@ -141,63 +149,58 @@
             });
             
             $('.nav3>ul>#cta1').click(function(){
-            $("#portimg3").removeClass().addClass("portfolio1");
+                $("#portimg3").removeClass().addClass("portfolio1");
                 $('.nav3>ul>li>a').removeClass("on");
                 $("#cta1>a").addClass("on");
              });
             $('.nav3>ul>#cta2').click(function(){
-            $("#portimg3").removeClass().addClass("portfolio2");
+                $("#portimg3").removeClass().addClass("portfolio2");
                 $('.nav3>ul>li>a').removeClass("on");
                 $("#cta2>a").addClass("on");
              });
             $('.nav3>ul>#cta3').click(function(){
-            $("#portimg3").removeClass().addClass("portfolio3");
+                $("#portimg3").removeClass().addClass("portfolio3");
                 $('.nav3>ul>li>a').removeClass("on");
                 $("#cta3>a").addClass("on");
              });
             $('.nav3>ul>#cta4').click(function(){
-            $("#portimg3").removeClass().addClass("portfolio4");
+                $("#portimg3").removeClass().addClass("portfolio4");
                 $('.nav3>ul>li>a').removeClass("on");
                 $("#cta4>a").addClass("on");
              });
             $('.nav3>ul>#cta5').click(function(){
-            $("#portimg3").removeClass().addClass("portfolio5");
+                $("#portimg3").removeClass().addClass("portfolio5");
                 $('.nav3>ul>li>a').removeClass("on");
                 $("#cta5>a").addClass("on");
              });
             
             $('.nav3>ul>#cta6').click(function(){
-            $("#portimg3").removeClass().addClass("portfolio6");
+                $("#portimg3").removeClass().addClass("portfolio6");
                 $('.nav3>ul>li>a').removeClass("on");
                 $("#cta6>a").addClass("on");
              });
-            
-            $(".nav3>ul>li>a").click(function(e){
-                e.preventDefault();
-            });
-         
             $('.banner>ul>#title1').click(function(){
-            $("#portfolioimg").removeClass().addClass("tit1");
+                $("#portfolioimg").removeClass().addClass("tit1");
                 $('.banner>ul>li>a').removeClass("on");
                 $("#title1>a").addClass("on");
              });
             $('.banner>ul>#title2').click(function(){
-            $("#portfolioimg").removeClass().addClass("tit2");
+                $("#portfolioimg").removeClass().addClass("tit2");
                 $('.banner>ul>li>a').removeClass("on");
                 $("#title2>a").addClass("on");
              });
             $('.banner>ul>#title3').click(function(){
-            $("#portfolioimg").removeClass().addClass("tit3");
+                $("#portfolioimg").removeClass().addClass("tit3");
                 $('.banner>ul>li>a').removeClass("on");
                 $("#title3>a").addClass("on");
              });
             $('.banner>ul>#title4').click(function(){
-            $("#portfolioimg").removeClass().addClass("tit4");
+                $("#portfolioimg").removeClass().addClass("tit4");
                 $('.banner>ul>li>a').removeClass("on");
                 $("#title4>a").addClass("on");
              });
             $('.banner>ul>#title5').click(function(){
-            $("#portfolioimg").removeClass().addClass("tit5");
+                $("#portfolioimg").removeClass().addClass("tit5");
                 $('.banner>ul>li>a').removeClass("on");
                 $("#title5>a").addClass("on");
              });
@@ -206,9 +209,6 @@
                 $('.banner>ul>li>a').removeClass("on");
                 $("#title6>a").addClass("on");
              });
-              $(".banner>ul>li>a").click(function(e){
-                e.preventDefault();
-            });
               $(".youtube").colorbox({iframe:true,innerWidth:1200,innerHeight:720});  
         });
     </script>
@@ -522,14 +522,15 @@
                      </div>
                      <div class="view"><a href="https://www.youtube.com/embed/GYmpECltq0s" class="youtube"><h1>VIEW</h1></a></div>
                  </div> 
-              </div>
+                  </div>
                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
-            <!-- Add Pagination -->
-            <div class="swiper-pagination"></div>
-            <!-- Add Arrows -->
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+    
         </section>
         
         <section>
@@ -583,19 +584,36 @@
             <div class="swiper-button-prev"></div>
           </div>
         </section>
+        <style>
+            .swiper-slide {top:100px;}
+            .swiper-pagination-bullet {background: white;}
+            .swiper-pagination-bullet-active {background:pink;}
+            
+        </style>
         <script>
             $(document).ready(function(){
-               var swiper = new Swiper('.swiper-container', {
-                   loop:true,
-                pagination:{
-                    el:'.swiper-pagination',
-                    type:'progressber'
-                },
-                navigation:{
-                    nextEl:'.swiper-button-next',
-                    prevEl:'.swiper-button-prev',
-                }
-            }); 
+                var swiper = new Swiper('.swiper-container', {
+                    loop:true,
+                    pagination:{
+                        el:'.swiper-pagination',
+                        clickable: true,
+                        },
+                    navigation:{
+                        nextEl:'.swiper-button-next',
+                        prevEl:'.swiper-button-prev',
+                    }
+                }); 
+//                var swiper2 = new Swiper('.swiper-container2', {
+//                    loop:true,
+//                    pagination:{
+//                        el:'.swiper-pagination',
+//                        clickable: true,
+//                        },
+//                    navigation:{
+//                        nextEl:'.swiper-button-next',
+//                        prevEl:'.swiper-button-prev',
+//                    }
+//            }); 
     });
             
         </script>
