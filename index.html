@@ -67,38 +67,39 @@
                       $("#menu li").eq(4).addClass("on")
                   }
               });
-            $('.nav>ul>#promotion1').click(function(){
-            $("#portimg1").removeClass().addClass("port1");
+            $('.nav>ul>#promotion1').click(function(e){
+                e.preventDefault();
+            $(".nm>#portimg1").removeClass().addClass("port1");
                 $('.nav>ul>li>a').removeClass("on");
                 $("#promotion1>a").addClass("on");
              });
             
             $('.nav>ul>#promotion2').click(function(){
-            $("#portimg1").removeClass().addClass("port2");
+            $(".nm>#portimg1").removeClass().addClass("port2");
                 $(".nav>ul>li>a").removeClass("on");
                 $("#promotion2>a").addClass("on");
              });
             
             $('.nav>ul>#promotion3').click(function(){
-            $("#portimg1").removeClass().addClass("port3");
+            $(".nm>#portimg1").removeClass().addClass("port3");
                 $(".nav>ul>li>a").removeClass("on");
                 $("#promotion3>a").addClass("on");
             });
             
             $('.nav>ul>#promotion4').click(function(){
-            $("#portimg1").removeClass().addClass("port4");
+            $(".nm>#portimg1").removeClass().addClass("port4");
                 $(".nav>ul>li>a").removeClass("on");
                 $("#promotion4>a").addClass("on");
             });
             
             $('.nav>ul>#promotion5').click(function(){         
-            $("#portimg1").removeClass().addClass("port5");
+            $(".nm>#portimg1").removeClass().addClass("port5");
                 $(".nav>ul>li>a").removeClass("on");
                 $("#promotion5>a").addClass("on");
             });
             
             $('.nav>ul>#promotion6').click(function(){
-            $("#portimg1").removeClass().addClass("port6");
+            $(".nm>#portimg1").removeClass().addClass("port6");
                 $(".nav>ul>li>a").removeClass("on");
                 $("#promotion6>a").addClass("on");
              });
@@ -183,6 +184,7 @@
             $('.banner>ul>#title2').click(function(){
             $("#portfolioimg").removeClass().addClass("tit2");
                 $('.banner>ul>li>a').removeClass("on");
+                
                 $("#title>a").addClass("on");
              });
             $('.banner>ul>#title3').click(function(){
@@ -208,7 +210,7 @@
               $(".banner>ul>li>a").click(function(e){
                 e.preventDefault();
             });
-              $(".youtube").colorbox({iframe:true,innerWidth:550,innerHeight:315});  
+              $(".youtube").colorbox({iframe:true,innerWidth:1200,innerHeight:760});  
         });
     </script>
 </head>
@@ -318,57 +320,109 @@
         <section>
           <div class="swiper-container">
             <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                 <div class="motion">
-                  <div id="portimg1" class="port1"></div>
-                   <div class="nav">
-                       <ul>
-                           <li id="promotion1" class="first on">
-                               <a href="#"></a>
-                           </li>
-                            <li id="promotion2">
-                               <a href="#"></a>
-                           </li>
-                            <li id="promotion3">
-                               <a href="#"></a>
-                           </li>
-                            <li id="promotion4">
-                               <a href="#"></a>
-                           </li>
-                            <li id="promotion5">
-                               <a href="#"></a>
-                           </li>
-                            <li id="promotion6">
-                               <a href="#"></a>
-                           </li>
-                       </ul>
-                   </div>     
-                 </div>
-                 <div class="text">
-                     <h2>PORTFOLIO1 <span>(아이돌프로모션)</span></h2>
-                     <h3>프로젝트 기간</h3>
-                     <p>- 2020.12 (총40시간 소요)</p>
-                     <h3>메인컬러</h3>
-                     <div class="maincolor">
-                         <ul>
-                             <li><div class="color1"></div></li>
-                             <li><div class="color2"></div></li>
-                             <li><div class="color3"></div></li>
-                         </ul>
-                     </div>
-                     <h3>설명</h3>
-                     <p>- 4인조 걸그룹 'BALCKPINK'의 프로모션 영상입니다.<br> 블랙핑크를 대표하는 검은색 과 분홍색 중에서 이번 1집앨범"THE ALBOM"에 맞게 좀 더 발랄한 느낌을 살리기 위해 <br> 분홍색을 메인으로 사용하여 블랙핑크의 밝은 분위기를 살려 작업하였습니다.</p>
-                     <h3>작업툴</h3>
-                     <div class="tool">
-                         <ul>
-                             <li><img src="img/photoshop.png" alt="포토샵"></li>
-                             <li><img src="img/illustrator.png" alt="일러스트"></li>
-                             <li><img src="img/aftereffects.png" alt="에프터이펙트"></li>
-                         </ul>
-                     </div>
-                     <div class="view"><a href="https://youtu.be/mdqcPL7bQrQ" class="youtube"><h1>VIEW</h1></a></div>
-                 </div> 
+                           <div class="swiper-slide">
+                  <div class="motion">
+                      <div id="portfolioimg" class="tit1"></div>
+                      <div class="banner">
+                          <ul>
+                              <li id="title1">
+                                  <a href="#"></a>
+                              </li>
+                              <li id="title2">
+                                  <a href="#"></a>
+                              </li>
+                              <li id="title3">
+                                  <a href="#"></a>
+                              </li>
+                              <li id="title4">
+                                  <a href="#"></a>
+                              </li>
+                              <li id="title5">
+                                  <a href="#"></a>
+                              </li>
+                              <li id="title6">
+                                  <a href="#"></a>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="text">
+                      <h2>PORTFOLIO04 <span>(TITLE)</span></h2>
+                      <h3>프로젝트 기간</h3>
+                      <p>- 2020.02 (총50시간 소요)</p>
+                      <h3>메인컬러</h3>
+                      <div class="maincolor">
+                          <ul>
+                              <li><div class="color10"></div></li>
+                              <li><div class="color11"></div></li>
+                              <li><div class="color12"></div></li>
+                          </ul>
+                      </div>
+                      <h3>설명</h3>
+                      <p>- '편스토랑' 프로그램의 가상의 방송타이틀을 일러스트로 제작 해 보았습니다.<br></p>
+                      <h3>작업툴</h3>
+                      <div class="tool">
+                          <ul>
+                              <li><img src="img/illustrator.png" alt="일러스트"></li>
+                              <li><img src="img/aftereffects.png" alt="에프터이펙트"></li>
+                          </ul>
+                      </div>
+                      <div class="view"><a href="https://www.youtube.com/embed/FfJF-T_N9kc" class="youtube"><h1>VIEW</h1></a></div>
+                  </div>
               </div>
+                            <div class="swiper-slide">
+                  <div class="motion">
+                      <div id="portimg3" class="portfolio1"></div>
+                      <div class="nav3">
+                          <ul>
+                              <li id="cta1">
+                                  <a href="#"></a>
+                              </li>
+                              <li id="cta2">
+                                  <a href="#"></a>
+                              </li>
+                              <li id="cta3">
+                                  <a href="#"></a>
+                              </li>
+                              <li id="cta4">
+                                  <a href="#"></a>
+                              </li>
+                              <li id="cta5">
+                                  <a href="#"></a>
+                              </li>
+                              <li id="cta6">
+                                  <a href="#"></a>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="text">
+                      <h2>PORTFOLIO3 <span>(CTA)</span></h2>
+                      <h3>프로젝트 기간</h3>
+                      <p>- 2020.01 (총30시간 소요)</p>
+                      <h3>메인컬러</h3>
+                      <div class="maincolor">
+                          <ul>
+                              <li><div class="color7"></div></li>
+                              <li><div class="color8"></div></li>
+                              <li><div class="color9"></div></li>
+                          </ul>
+                      </div>
+                      <h3>설명</h3>
+                      <p>- 'LAFRAU'의 밍크조끼 CTA 영상입니다.<br>
+                     연베이지와 화이트 두가지 색상으로 전체적인 배경색으로 사용하지 않고 포인트 색상으로 사용하여 좀 더 강조할 수 있게 작업하였습니다. 'LAFRAU'란 이미지에 맞게 깔끔한 레이아웃과 느린 모션으로 옷에 시선을 집중시킬 수 있도록 하였습니다.
+                      </p>
+                      <h3>작업툴</h3>
+                      <div class="tool">
+                          <ul>
+                              <li><img src="img/photoshop.png" alt="포토샵"></li>
+                              <li><img src="img/aftereffects.png" alt="에펙"></li>
+                          </ul>
+                      </div>
+                      <div class="view"><a href="https://www.youtube.com/embed/XF0rlNk-ifE" class="youtube"><h1>VIEW</h1></a></div>
+                  </div>
+              </div>
+
              
               <div class="swiper-slide">
                   <div class="motion">
@@ -418,111 +472,61 @@
                               <li><img src="img/aftereffects.png" alt="에프터이팩트"></li>
                           </ul>
                       </div>
-                      <div class="view"><a href="https://youtu.be/zcbaLq99kzk" class="youtube"><h1>VIEW</h1></a></div>
+                      <div class="view"><a href="https://www.youtube.com/embed/XN2FbTnbVe8" class="youtube"><h1>VIEW</h1></a></div>
                   </div>
               </div>
-              <div class="swiper-slide">
-                  <div class="motion">
-                      <div id="portimg3" class="portfolio1"></div>
-                      <div class="nav3">
-                          <ul>
-                              <li id="cta1">
-                                  <a href="#"></a>
-                              </li>
-                              <li id="cta2">
-                                  <a href="#"></a>
-                              </li>
-                              <li id="cta3">
-                                  <a href="#"></a>
-                              </li>
-                              <li id="cta4">
-                                  <a href="#"></a>
-                              </li>
-                              <li id="cta5">
-                                  <a href="#"></a>
-                              </li>
-                              <li id="cta6">
-                                  <a href="#"></a>
-                              </li>
-                          </ul>
-                      </div>
-                  </div>
-                  <div class="text">
-                      <h2>PORTFOLIO3 <span>(CTA)</span></h2>
-                      <h3>프로젝트 기간</h3>
-                      <p>- 2020.01 (총30시간 소요)</p>
-                      <h3>메인컬러</h3>
-                      <div class="maincolor">
-                          <ul>
-                              <li><div class="color7"></div></li>
-                              <li><div class="color8"></div></li>
-                              <li><div class="color9"></div></li>
-                          </ul>
-                      </div>
-                      <h3>설명</h3>
-                      <p>- 'LAFRAU'의 밍크조끼 CTA 영상입니다.<br>
-                     연베이지와 화이트 두가지 색상으로 전체적인 배경색으로 사용하지 않고 포인트 색상으로 사용하여 좀 더 강조할 수 있게 작업하였습니다. 'LAFRAU'란 이미지에 맞게 깔끔한 레이아웃과 느린 모션으로 옷에 시선을 집중시킬 수 있도록 하였습니다.
-                      </p>
-                      <h3>작업툴</h3>
-                      <div class="tool">
-                          <ul>
-                              <li><img src="img/photoshop.png" alt="포토샵"></li>
-                              <li><img src="img/aftereffects.png" alt="에펙"></li>
-                          </ul>
-                      </div>
-                      <div class="view"><a href="https://youtu.be/MNoMhQZWRVI" class="youtube"><h1>VIEW</h1></a></div>
-                  </div>
+                      <div class="swiper-slide">
+                 <div class="motion nm">
+                  <div id="portimg1" class="port1"></div>
+                   <div class="nav">
+                       <ul>
+                           <li id="promotion1" class="first on">
+                               <a href="#"></a>
+                           </li>
+                            <li id="promotion2">
+                               <a href="#"></a>
+                           </li>
+                            <li id="promotion3">
+                               <a href="#"></a>
+                           </li>
+                            <li id="promotion4">
+                               <a href="#"></a>
+                           </li>
+                            <li id="promotion5">
+                               <a href="#"></a>
+                           </li>
+                            <li id="promotion6">
+                               <a href="#"></a>
+                           </li>
+                       </ul>
+                   </div>     
+                 </div>
+                 <div class="text">
+                     <h2>PORTFOLIO1 <span>(아이돌프로모션)</span></h2>
+                     <h3>프로젝트 기간</h3>
+                     <p>- 2020.12 (총40시간 소요)</p>
+                     <h3>메인컬러</h3>
+                     <div class="maincolor">
+                         <ul>
+                             <li><div class="color1"></div></li>
+                             <li><div class="color2"></div></li>
+                             <li><div class="color3"></div></li>
+                         </ul>
+                     </div>
+                     <h3>설명</h3>
+                     <p>- 4인조 걸그룹 'BALCKPINK'의 프로모션 영상입니다.<br> 블랙핑크를 대표하는 검은색 과 분홍색 중에서 이번 1집앨범"THE ALBOM"에 맞게 좀 더 발랄한 느낌을 살리기 위해 <br> 분홍색을 메인으로 사용하여 블랙핑크의 밝은 분위기를 살려 작업하였습니다.</p>
+                     <h3>작업툴</h3>
+                     <div class="tool">
+                         <ul>
+                             <li><img src="img/photoshop.png" alt="포토샵"></li>
+                             <li><img src="img/illustrator.png" alt="일러스트"></li>
+                             <li><img src="img/aftereffects.png" alt="에프터이펙트"></li>
+                         </ul>
+                     </div>
+                     <div class="view"><a href="https://www.youtube.com/embed/GYmpECltq0s" class="youtube"><h1>VIEW</h1></a></div>
+                 </div> 
               </div>
-              <div class="swiper-slide">
-                  <div class="motion">
-                      <div id="portfolioimg" class="tit1"></div>
-                      <div class="banner">
-                          <ul>
-                              <li id="title1">
-                                  <a href="#"></a>
-                              </li>
-                              <li id="title2">
-                                  <a href="#"></a>
-                              </li>
-                              <li id="title3">
-                                  <a href="#"></a>
-                              </li>
-                              <li id="title4">
-                                  <a href="#"></a>
-                              </li>
-                              <li id="title5">
-                                  <a href="#"></a>
-                              </li>
-                              <li id="title6">
-                                  <a href="#"></a>
-                              </li>
-                          </ul>
-                      </div>
-                  </div>
-                  <div class="text">
-                      <h2>PORTFOLIO04 <span>(TITLE)</span></h2>
-                      <h3>프로젝트 기간</h3>
-                      <p>- 2020.02 (총50시간 소요)</p>
-                      <h3>메인컬러</h3>
-                      <div class="maincolor">
-                          <ul>
-                              <li><div class="color10"></div></li>
-                              <li><div class="color11"></div></li>
-                              <li><div class="color12"></div></li>
-                          </ul>
-                      </div>
-                      <h3>설명</h3>
-                      <p>- '편스토랑' 프로그램의 가상의 방송타이틀을 일러스트로 제작 해 보았습니다.<br></p>
-                      <h3>작업툴</h3>
-                      <div class="tool">
-                          <ul>
-                              <li><img src="img/illustrator.png" alt="일러스트"></li>
-                              <li><img src="img/aftereffects.png" alt="에프터이펙트"></li>
-                          </ul>
-                      </div>
-                      <div class="view"><a href="https://youtu.be/1saTwEhqNmM" class="youtube"><h1>VIEW</h1></a></div>
-                  </div>
-              </div>
+
                </div>
             </div>
             <!-- Add Pagination -->
@@ -535,8 +539,46 @@
         <section>
              <div class="swiper-container">
             <div class="swiper-wrapper">
-              <div class="swiper-slide"><h1>PORTPOLIO01</h1></div>
-              <div class="swiper-slide"><h1>PORTPOLIO02</h1></div>
+             <div class="swiper-slide">
+                     <div class="web_wrap">
+                      <div class="webtitle"><h1>PORTFOLIO01</h1></div>
+                      <div class="webimg"><div id="YG">
+                          <img src="img/web_ygpc.png" alt="ygpc">
+                          <img src="img/web_ygT.png" alt="ygt">
+                          <img src="img/web_ygm%20(2).png" alt="ygm">
+                      </div></div>
+                      <div class="webtext">
+                           <h2>YG entertainment</h2>
+                          <p>프로펙트 명 : <strong>YG entertainment 사이트 리뉴얼</strong></p>
+                          <p>역할 : <strong>단독 프로젝트</strong></p>
+                          <p>제작 소요기간 : <strong>약 6주 소요</strong></p>
+                          <p>제작 페이지 : <strong>전 페이지</strong></p>
+                          <p>홈페이지 유형 : <strong>반응형 웹</strong></p>
+                          <p>사용기술 : <strong>HTML5,CSS3,jQuery,JavaScript</strong></p>
+                      
+                      <div class="web_view"><a href="https://thfdl0723.github.io/portfolio2/"><h1>GO SITE</h1></a></div>
+                      </div>
+                  </div>
+              </div>
+              <div class="swiper-slide">
+                  <div class="web_wrap">
+                      <div class="webtitle"><h1>PORTFOLIO02</h1></div>
+                      <div class="webimg">
+                          <div id="gs"><img src="img/web_GS.png" alt="gs"></div>
+                      </div>
+                      <div class="webtext">
+                          <h2>GS25</h2>
+                          <p>프로펙트 명 : <strong>GS25편의점 사이트 리뉴얼</strong></p>
+                          <p>역할 : <strong>단독 프로젝트</strong></p>
+                          <p>제작 소요기간 : <strong>약 3주 소요</strong></p>
+                          <p>제작 페이지 : <strong>INDEX</strong></p>
+                          <p>홈페이지 유형 : <strong>PC형 웹</strong></p>
+                          <p>사용기술 : <strong>HTML5,CSS3</strong></p>
+                      <div class="web_view"><a href="https://thfdl0723.github.io/portfolio1/"><h1>GO SITE</h1></a></div>
+                      </div>
+                  </div>
+              </div>
+              
             </div>
             <!-- Add Pagination -->
             <div class="swiper-pagination"></div>
